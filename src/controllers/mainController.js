@@ -1,6 +1,9 @@
 let controller = {
     index: (req, res) => {
-        res.send("Hola mundo")
+        res.render("index")
+    },
+    admin: (req, res) => {
+        res.render("admin")
     }
 }
 
